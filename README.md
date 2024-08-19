@@ -47,7 +47,7 @@ ADD AL,BL
 HLT
 ```
 ## Output  
-![output 1](https://github.com/user-attachments/assets/42c18325-a8c4-4a97-a633-ebffb0abd7f9)
+![output 1](https://github.com/user-attachments/assets/1646845f-1945-4995-b31c-af74f412d0f2)
 
 ## Subtraction   of 8 bit numbers  ALP 
 ```
@@ -57,7 +57,7 @@ sub al,bl
 hlt
 ```
 ## Output  
-![output 2](https://github.com/user-attachments/assets/2cb69c01-2ef5-47ae-895b-e455baff1fa4)
+![output 2](https://github.com/user-attachments/assets/9c0ae848-09f8-4a33-8302-c13e3e9546e6)
 
 ## Multiplication alp 
 ```
@@ -67,7 +67,7 @@ mul bl
 hlt
 ```
 ## Output  
-![output 3](https://github.com/user-attachments/assets/a8ee938a-f186-4bb1-8305-22f0b4563766)
+![output 3](https://github.com/user-attachments/assets/4e4f6abe-acbe-4bf8-80ce-bc48f9f384e6)
 
 ## Division alp 
 ```
@@ -77,13 +77,54 @@ div bl
 hlt
 ```
 ## Output  
-![output 4](https://github.com/user-attachments/assets/3937c150-020d-465e-a81f-083a3343c655)
+![output 4](https://github.com/user-attachments/assets/fdb6535b-a893-40b4-94f5-d0511d3a5381)
 
-## Result :
-Thus, a program is executed on ALP for the fundamental arithmetic and logical operations. 
+## Programs For Logical Operators
+
+## AND
+```
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX;
+```
+## Output
+![output 5](https://github.com/user-attachments/assets/3e5142b3-9456-4d97-b137-c2683bc3b9fe)
+
+## OR
+```
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+```
+## Output
+![output 6](https://github.com/user-attachments/assets/4595fb28-a91a-4e6f-937a-c5818e82440d)
+
+## NOT
+```
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX;
+MOV [SI+6],AX;
+```
+## Output
+![output 7](https://github.com/user-attachments/assets/808c92ea-6f2e-4a83-a96d-f9c9f50036ec)
 
 
+## XOR
+```
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+XOR AX,BX;
+```
 
+## Output
+![output 8](https://github.com/user-attachments/assets/4ef14a20-38cc-484b-a42a-6274c3b7e422)
+
+## Result
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
