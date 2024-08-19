@@ -1,10 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
+Name :K.HEMANATH
+Roll no:212223100012
 Date of experiment :
-
-
-
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -16,87 +13,64 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
 2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
 3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
-
 4.	 Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
-
 6.	Click OK to see/view the output of your program on the Emulator screen. 
-
-
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
-
-
-
-
-
-
-
-
-
-
-
 9.	Click on emulate to start emulation 
-
-
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
-
-
-
-
-
-
-
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
-
-
-
-
-
 
 
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+MOV AL,88H
+MOV BL,65H
+ADD AL,BL
+HLT
+```
 ## Output  
- 
+![output 1](https://github.com/user-attachments/assets/42c18325-a8c4-4a97-a633-ebffb0abd7f9)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+mov al,24h
+mov bl,14h
+sub al,bl
+hlt
+```
 ## Output  
-## Multiplication alp 
- ## Output  
+![output 2](https://github.com/user-attachments/assets/2cb69c01-2ef5-47ae-895b-e455baff1fa4)
 
+## Multiplication alp 
+```
+mov al,10h
+mov bl,6h
+mul bl
+hlt
+```
+## Output  
+![output 3](https://github.com/user-attachments/assets/a8ee938a-f186-4bb1-8305-22f0b4563766)
 
 ## Division alp 
-
+```
+mov al,40h
+mov bl,2h
+div bl
+hlt
+```
 ## Output  
-
+![output 4](https://github.com/user-attachments/assets/3937c150-020d-465e-a81f-083a3343c655)
 
 ## Result :
- 
+Thus, a program is executed on ALP for the fundamental arithmetic and logical operations. 
 
 
 
