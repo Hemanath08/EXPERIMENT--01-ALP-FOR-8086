@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :K.HEMANATH
-Roll no:212223100012
-Date of experiment :
+## Name :K.HEMANATH
+## Roll no:212223100012
+## Date of experiment :
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
